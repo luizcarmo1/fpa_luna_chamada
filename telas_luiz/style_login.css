@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    background-color: rgba(44,43,41,255);
+}
+
+.navbar-custom{
+    background-color: rgb(0,91,170);
+}
+
+#h1_login{
+    text-align: center;
+}
+
+#h4_login{
+    text-align: center;
+}
+
+#login{
+    background-color: rgba(30,30,30,0.8);
+    position: relative;
+    width: 35%;
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#nome_login{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#senha_login{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#botao_enviar{
+    background-color: rgb(0, 91, 170);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+#botao_enviar:active{
+    background-color: dodgerblue;
+}

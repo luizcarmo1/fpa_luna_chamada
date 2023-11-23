@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+  
+body {
+    background-color: rgba(44, 43, 41, 255);
+}
+  
+.navbar-custom {
+    background-color: rgb(0, 91, 170);
+}
+
+.voltar {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    margin: 1%;
+    background-color: rgb(0, 91, 170);
+    color: #000000;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#tabela {
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    background-color: rgba(30, 30, 30, 0.8);
+    color: #fff;
+    margin: 2% auto;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    color: #000000;
+    border-collapse: collapse;
+    background-color: #ffa600a1;
+    padding: 20px;
+    font-size: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/**Cores**/
+table tr:nth-child(odd){
+    background-color: #eee;
+}
+
+/**Cor quando passar por cima**/
+table tr:hover td{
+    background-color: #feffb7;
+}
+
+/**Cor quando selecionado**/
+table tr.selecionado td{
+    background-color: #aff7ff;
+}
+
+
+#botao_contestar{
+    background-color: rgb(0, 91, 170);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+#botao_contestar:active{
+    background-color: dodgerblue;
+}

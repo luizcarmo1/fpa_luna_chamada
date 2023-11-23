@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: rgba(44, 43, 41, 255);
+}
+
+.navbar-custom {
+  background-color: rgb(0, 91, 170);
+}
+
+.voltar {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  margin: 1%;
+  background-color: rgb(0, 91, 170);
+  color: #000000;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.input-box {
+  width: 35%;
+  max-width: 600px;
+  height: auto;
+  background-color: rgba(30, 30, 30, 0.8);
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.input-box a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.input-box h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.input-box input {
+  position: relative;
+  height: 50px;
+  width: 80%;
+  max-width: 400px;
+  background: transparent;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 24px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.input-box input::placeholder {
+  letter-spacing: 0;
+}
+
+.input-box #btn,
+.input-box #copiar,
+.input-box #contestar{
+  position: relative;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px){
+  .input-box {
+    width: 90%;
+  }
+}
+
+.input-box input,
+.input-box #btn,
+.input-box #copiar,
+.input-box #contestar {
+  width: 100%;
+  max-width: none;
+}
+
+.input-box #btn:active,
+.input-box #copiar:active,
+.input-box #contestar:active,
+.voltar:active {
+  background: dodgerblue;
+}
